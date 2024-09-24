@@ -18,12 +18,14 @@ public class RatarataBB {
             beratBadan = s.nextDouble();
             totalBerat = totalBerat + beratBadan;
         }
+        System.out.println("====================");
+        System.out.println("      HASIL   ");
+        System.out.println("====================");
+        
         RatarataBerat = totalBerat / jumlahSiswa;
         System.out.println("Rata-rata Berat Badan: " + jumlahSiswa + " siswa adalah = " + RatarataBerat);
 
         s.close();
 
     }
-
-    
 }
